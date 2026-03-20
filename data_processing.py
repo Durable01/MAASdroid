@@ -90,7 +90,7 @@ def main(folder_path, eval_folder):
     excel_path = os.path.join(eval_folder, 'eval.xlsx')
     data = pd.read_excel(excel_path, usecols='A:E')
 
-    new_row = {'App': part_after_fastbot, 'A1(No label)': a, 'A2(Image with no description)': b, 'A3(False label)': c, 'A4(Focus disorder)': d}
+    new_row = {'App': part_after_fastbot, 'A1(No label)': a, 'A2(Image with no description)': b, 'A3(False label)': c, 'A4(Disrupted navigational order)': d}
     new_row_df = pd.DataFrame([new_row])
     data = pd.concat([data, new_row_df], ignore_index=True)
     data.to_excel(excel_path, index=False)
