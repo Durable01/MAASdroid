@@ -1,5 +1,5 @@
 ## Introduction
-AMAAS (Automated Mobile Accessibility Assessment System) is an innovative approach combining cognitive mapping with automated mobile application accessibility scoring. This project, implemented in Python, facilitates accessibility evaluations and is runnable within PyCharm.
+MAASdroid is an innovative approach combining cognitive mapping theory with automated mobile application accessibility scoring. This project, implemented in Python, facilitates accessibility evaluations and is runnable within PyCharm.
 
 ## Steps:
 
